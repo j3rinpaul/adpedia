@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
 .common-bg{
-  background-color: rgb(70, 67, 67);
+  /* background-color: rgb(70, 67, 67); */
+  background-image: url('/bg.jpg');
+
   
 }
 
 .about-bg{
-  background-color: rgb(244, 210, 38);
+  background-color: rgb(46, 46, 43);
 }
 .flowing-border .side {
   position: absolute;
@@ -104,6 +106,21 @@
 
 .parallax-base{
   position: fixed;
-  width: 77vw;
+  width: 72.1vw;
   align-items: center;
 }
+
+.bill-board{
+  background-color: #d7c907;
+  margin-right: 5vw;
+  margin-left: 8vw;
+}
+
+
+
+
+@media (max-width: 768px) {
+          .parallax-base {
+            width: 45vw;
+          }
+        }

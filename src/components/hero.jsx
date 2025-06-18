@@ -1,40 +1,44 @@
 import React from "react";
 
 function Hero() {
-    
   return (
-    <div className="relative h-[80vh] overflow-hidden ">
+    <div className="relative h-[77vh] overflow-hidden">
       {/* Background Image */}
       <div className="parallax-base">
-
-      <img
-        src="/hero.jpg"
-        alt="hero"
-        className=" w-full object-cover"
-      />
+        <img
+          src="/hero.jpg"
+          alt="hero"
+          className="w-full h-full object-cover"
+        />
       </div>
 
-      {/* Overlay for dark shade */}
-      <div className="absolute inset-0 bg-black/20 h-[90vh] w-full z-10" />
+      
+      <div className="absolute inset-0  bg-black/20 w-full z-10 pt-60" />
 
-      {/* Text content */}
-      <div className="absolute bottom-60 left-10 text-white z-20">
+  
+      <div className="absolute top-[25vh] sm:bottom-40 md:bottom-60 left-4 sm:left-6 md:left-10 text-white z-20 max-w-[90%] sm:max-w-[85%] md:max-w-none">
         <h1
-          className="text-7xl"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight"
           style={{ fontFamily: "Caveat Brush" }}
         >
-          Innovative Advertising Solutions <br /> for Your Business Growth
+          Innovative Advertising Solutions <br className="hidden sm:block" /> 
+          <span className="sm:hidden">for Your Business Growth</span>
+          <span className="sm:hidden">for Your Business Growth</span>
+          <span className="hidden sm:inline">for Your Business Growth</span>
         </h1>
-        <p className="text-xl mt-2">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl mt-2 max-w-lg">
           Maximise your brand's reach with expert marketing strategies
         </p>
       </div>
 
-      <div className="absolute bottom-30 left-1/2 transform -translate-x-1/2 z-30">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-1">
+      {/* Scroll indicator */}
+      {/* <div className="absolute bottom-8 sm:bottom-10 md:bottom-12 left-1/2 transform -translate-x-1/2 z-30">
+        <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white rounded-full flex items-start justify-center p-1">
           <div className="w-1 h-1 bg-white rounded-full animate-bounce" />
         </div>
-      </div>
+      </div> */}
+
+      
     </div>
   );
 }
