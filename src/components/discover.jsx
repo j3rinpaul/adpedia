@@ -69,19 +69,19 @@ function AboutSection() {
 
     <h3 className="text-center text-2xl leading-relaxed">
       A fully <br />
-      <span className="text-2xl pl-20">integrated</span><br />
+      <span className="text-2xl pl-30">integrated</span><br />
 
-      <span className="bg-yellow-400 text-black px-2">digital</span>
+      <span className="bg-yellow-400 text-black px-2 -ml-5">all</span>
 
-      <span
+      {/* <span
         className="text-yellow-400 text-4xl font-light mx-3"
         style={{ fontFamily: '"Great Vibes", cursive' }}
       >
-        &amp;
-      </span>
+       all rounder
+      </span> */}
 
       <br />
-      <span className="bg-white text-black px-2 ml-30">creative</span>
+      <span className="bg-white text-black px-2 ml-30">rounder</span>
       <br />
       agency
     </h3>

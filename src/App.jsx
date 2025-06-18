@@ -5,6 +5,8 @@ import Hero from './components/hero'
 import AboutSection from './components/discover'
 import Aboutus from './components/aboutus'
 import { useLenis } from './components/lenis'
+import WhatWeDo from './components/whatwedo'
+import Random from './components/random'
 
 function App() {
   useLenis()
@@ -15,7 +17,10 @@ function App() {
 
       <Hero/>
       <AboutSection/>
-      <Aboutus/>
+      <Aboutus/> 
+      <WhatWeDo/> 
+      <Random/>
+      <WhatWeDo/> 
     </div>
        
     </>

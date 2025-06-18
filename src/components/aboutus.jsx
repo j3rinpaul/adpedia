@@ -54,7 +54,7 @@ function AboutUs() {
             <h3 className="text-lg sm:text-xl font-bold mb-2">
               Check us out on social media
             </h3>
-            <div className="flex gap-4 items-center flex-wrap">
+            <div className="flex gap-4 items-center flex-wrap pl-10">
               <a
                 href="https://facebook.com"
                 target="_blank"
