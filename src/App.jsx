@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Hero from './components/hero'
 import AboutSection from './components/discover'
-import WhatweDo from './components/whatwedo'
+import Aboutus from './components/aboutus'
 import { useLenis } from './components/lenis'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
       <Hero/>
       <AboutSection/>
-      <WhatweDo/>
+      <Aboutus/>
     </div>
        
     </>

@@ -98,7 +98,7 @@ function AboutSection() {
     <p className="bg-black text-yellow-400 px-2 py-1 inline-block font-bold text-sm" style={{fontFamily:'"Savate"'}}>
       Started:
     </p>
-    <p className="text-xl mt-1" style={{fontFamily:"Savate"}}>2009</p>
+    <p className="text-xl mt-1" style={{fontFamily:"Savate"}}>2022</p>
   </div>
 
   <div className="mb-6">
