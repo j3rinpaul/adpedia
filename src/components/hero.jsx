@@ -16,15 +16,26 @@ function Hero() {
     <div className="relative h-screen md:h-[77vh] overflow-hidden z-0 ">
 
       {/* Background Image */}
-      <div className="parallax-base">
-        <img
-          src="/hero.jpg"
-          alt="hero"
-          className={`w-full h-full object-cover transition-opacity duration-500 ${
-          isHidden ? "opacity-0" : "opacity-100"
-        }`}
-        />
+          <div className="parallax-base">
+        {/* Mobile Image */}
+            <img
+              src="/hero-mobile.jpg"
+              alt="hero"
+              className={`w-full h-full object-cover transition-opacity duration-500 sm:hidden ${
+                isHidden ? "opacity-0" : "opacity-100"
+              }`}
+            />
+
+            {/* Desktop Image */}
+            <img
+              src="/hero.jpg"
+              alt="hero"
+              className={`w-full h-full object-cover transition-opacity duration-500 hidden sm:block ${
+                isHidden ? "opacity-0" : "opacity-100"
+              }`}
+            />
       </div>
+
 
       
       <div className="absolute inset-0  bg-black/20 w-full z-10 pt-60" />
