@@ -9,12 +9,13 @@ import WhatWeDo from './components/whatwedo'
 import Random from './components/random'
 import WhoWeAre from './components/whoweare'
 import ContactForm from './components/contact'
+import Footer from './components/footer'
 function App() {
   useLenis()
 
   return (
     <>
-    <div className='common-bg pl-50 pr-50 '>
+    <div className='common-bg  '>
 
       <Hero/>
       <AboutSection/>
@@ -23,6 +24,7 @@ function App() {
       <Random/>
       < WhoWeAre/> 
       <ContactForm/>
+      <Footer/>
     </div>
        
     </>

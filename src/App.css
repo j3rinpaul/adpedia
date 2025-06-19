@@ -6,6 +6,15 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+  padding-left: 13.5%;
+  padding-right: 13.5%;
+}
+
+
+
+.hero-bg{
+   padding-left: 13.5%;
+  padding-right: 13.5%;
 }
 
 
@@ -124,7 +133,13 @@
 
 @media (max-width: 768px) {
           .parallax-base {
-            width: 45vw;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+          .common-bg{
+            padding-left: 0%;
+            padding-right: 0%;
           }
         }
 

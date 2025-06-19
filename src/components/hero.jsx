@@ -12,7 +12,8 @@ function Hero() {
   }, []);
   
   return (
-    <div className="relative h-[77vh] overflow-hidden z-0">
+    <div className="relative h-screen md:h-[77vh] overflow-hidden z-0 ">
+
       {/* Background Image */}
       <div className="parallax-base">
         <img

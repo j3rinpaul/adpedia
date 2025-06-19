@@ -37,7 +37,7 @@ const members = [
 function WhoWeAre(){
     const borderText = "Who we are? "
     return (
-        <div className="relative bg-white h-[120vh] z-50">
+        <div className="relative bg-white  z-50">
             <h3>Who we are</h3>
             <div className="flowing-border m-5">
       
@@ -78,7 +78,7 @@ function WhoWeAre(){
         <h2 className="text-1xl md:text-3xl font-light mb-10">
         The Dream Team Behind the Magic
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 justify-items-center items-center text-center">
+      <div className="grid  md:grid-cols-3  sm:grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center text-center">
   {members.map((member, idx) => (
     <FlipCard key={idx} member={member} />
   ))}
