@@ -29,6 +29,13 @@ function Hero() {
       
       <div className="absolute inset-0  bg-black/20 w-full z-10 pt-60" />
 
+      <div className="absolute top-4 left-4 z-20">
+   
+        <div className="text-white text-2xl  p-2 rounded-full">
+          <a href="/"><img src="/logo.png" alt="" width={50} /></a>
+          </div>
+        </div>
+
   
       <div className="absolute top-[25vh] sm:bottom-40 md:bottom-60 left-4 sm:left-6 md:left-10 text-white z-20 max-w-[90%] sm:max-w-[85%] md:max-w-none">
         <h1

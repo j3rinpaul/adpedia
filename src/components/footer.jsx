@@ -128,7 +128,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-10 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} theAdpedia.All rights reserved.
+        © {new Date().getFullYear()} theAdpedia. All rights reserved.
       </div>
     </footer>
   );

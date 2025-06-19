@@ -14,18 +14,18 @@ const members = [
   {
     name: "Bhavana BS",
     role: "Digital Wizard (Digital Marketing Lead)",
-    img: "/pic.jfif",
+    img: "/bhavana.jpeg",
     desc: "Specializing in SEO, social media, and performance campaigns, [Name] ensures your brand connects with the right audience online.",
   },
   // Add more members here
   {
-    name: "Random Guy",
+    name: "John Doe",
     role: "Vibe Manager (Client Servicing & Events)",
     img: "/pic.jfif",
     desc: "The go-to person for seamless communication and on-ground execution.",
   },
   {
-    name: "Random Guy",
+    name: "Jane Doe",
     role: "Code Crusader (Web Designer/Developer)",
     img: "/pic.jfif",
     desc: "Web whisperer with a passion for clean code, smooth UX, and pixel perfection.",

@@ -21,7 +21,7 @@ function App() {
   return (
     <>
     <Helmet>
-        <title>Adpedia | Creative Advertising & Marketing Agency</title>
+        <title>theAdpedia | Creative Advertising & Marketing Agency</title>
         <meta name="description" content="Adpedia is a full-service creative agency providing innovative advertising, branding, and digital marketing solutions tailored to your business needs." />
         <meta name="keywords" content="Adpedia, advertising, marketing, branding, digital agency, Dubai, Kerala, creative solutions" />
         <meta name="author" content="Adpedia Team" />
@@ -56,12 +56,13 @@ function App() {
 
       <section id='contact-details'><Footer/></section>
        <button
-        onClick={scrollToContact}
-        className="fixed bottom-6 right-6 z-50    px-4 py-3  shadow-lg transition rounded-md"
-        style={{backgroundColor:"rgb(244, 210, 38)"}}
-        >
-        <MessageIcon/> 
-      </button>
+  onClick={scrollToContact}
+  className="fixed bottom-6 right-6 z-50 px-4 py-3 shadow-lg transition rounded-md cursor-pointer"
+  style={{ backgroundColor: "rgb(244, 210, 38)" }}
+>
+  <MessageIcon />
+</button>
+
     </div>
        
     </>
