@@ -1,9 +1,9 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, forwardRef } from "react";
 import emailjs from "@emailjs/browser";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
-export default function ContactForm() {
+const ContactForm = React.forwardRef((props, ref) => {
   const form = useRef();
   const [status, setStatus] = useState("");
   const [fileName, setFileName] = useState("");
@@ -16,13 +16,13 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_gsi4zbh",      // ✅ Your EmailJS service ID
-        "template_utf9rjd",     // ✅ Your template ID
+        "service_gsi4zbh", // your service ID
+        "template_utf9rjd", // your template ID
         form.current,
-        "ys5Hom4cMos1d8cu3"     // ✅ Your public key
+        "ys5Hom4cMos1d8cu3" // your public key
       )
       .then(
-        (result) => {
+        () => {
           setStatus("Message sent successfully!");
           setEmailSent(true);
           setFileName("");
@@ -43,13 +43,23 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="relative w-full px-4 md:px-10 py-10 bg-white shadow-lg z-10">
+    <div
+      ref={ref}
+      className="relative w-full px-4 md:px-10 py-10 bg-white shadow-lg z-10"
+    >
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-semibold mb-8 text-center" style={{ fontFamily: "Cambria" }}>
+        <h2
+          className="text-3xl font-semibold mb-8 text-center"
+          style={{ fontFamily: "Cambria" }}
+        >
           Contact Us
         </h2>
-        <form ref={form} onSubmit={sendEmail} className="space-y-6" encType="multipart/form-data">
-          {/* Name Field */}
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="space-y-6"
+          encType="multipart/form-data"
+        >
           <div className="w-full">
             <input
               type="text"
@@ -60,7 +70,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Email Field */}
           <div className="w-full">
             <input
               type="email"
@@ -71,7 +80,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Message Field */}
           <div className="w-full">
             <textarea
               name="message"
@@ -81,34 +89,47 @@ export default function ContactForm() {
               required
             ></textarea>
 
-            {/* Attachment Upload */}
+            {/* Attachment Field */}
             {/* <label className="flex items-center gap-2 mt-4 cursor-pointer text-gray-600">
               <AttachFileIcon fontSize="small" />
-              <input type="file" name="my_file" onChange={handleFileChange} className="hidden" />
+              <input
+                type="file"
+                name="my_file"
+                onChange={handleFileChange}
+                className="hidden"
+              />
               <span className="text-sm">Attach file</span>
               {fileName && (
-                <span className="text-sm text-gray-800">
+                <span className="text-sm text-gray-800 flex items-center">
                   {fileName}
-                  {emailSent && <CheckCircleIcon className="text-green-500 ml-1" fontSize="small" />}
+                  {emailSent && (
+                    <CheckCircleIcon
+                      className="text-green-500 ml-1"
+                      fontSize="small"
+                    />
+                  )}
                 </span>
               )}
             </label> */}
           </div>
 
-          {/* Submit Button */}
           <div className="text-center">
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition"
+              className="bg-blue-600 text-black px-6 py-3 rounded-md hover:bg-blue-700 transition"
+              style={{backgroundColor:"rgb(244, 210, 38)"}}
             >
               Send Message
             </button>
           </div>
 
-          {/* Status Message */}
-          {status && <p className="text-center text-sm mt-4 text-gray-600">{status}</p>}
+          {status && (
+            <p className="text-center text-sm mt-4 text-gray-600">{status}</p>
+          )}
         </form>
       </div>
     </div>
   );
-}
+});
+
+export default ContactForm;

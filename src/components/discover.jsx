@@ -55,14 +55,14 @@ function AboutSection() {
       <div className="relative z-10 flex flex-col sm:flex-col md:flex-row items-center justify-center gap-12 px-6 pt-24 md:pt-40 max-w-6xl mx-auto">
 
         {/* LEFT TEXT SECTION */}
-       <div className="w-full md:w-1/2 lg:pl-30 text-white font-mono text-center md:text-left">
+       <div className="w-full md:w-1/2 lg:pl-30  text-white font-mono text-center md:text-left">
 
           <h2 className="text-5xl  sm:text-6xl mb-4">Adpedia</h2>
-          <h3 className="text-2xl pl-7 leading-relaxed">
+          <h3 className="text-2xl pl-7  leading-relaxed">
             A fully <br />
-            <span className="text-2xl pl-20">integrated</span><br />
+            <span className="text-2xl  lg:pl-20 ">integrated</span><br />
             <span className="bg-yellow-400 text-black px-2">all</span><br />
-            <span className="bg-white text-black px-2 ml-10">rounder</span><br />
+            <span className="bg-white text-black px-2 lg:ml-10">rounder</span><br />
             agency
           </h3>
         </div>

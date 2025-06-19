@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Navbar from "./navbar";
 
 function Hero() {
   const [isHidden, setIsHidden] = useState(false);

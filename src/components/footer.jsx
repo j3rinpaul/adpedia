@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import {
   FaInstagram,
   FaTwitter,
@@ -21,9 +23,46 @@ const Footer = () => {
   const today = new Date().toLocaleDateString("en-US", {
     weekday: "long",
   });
+  <Helmet>
+  <title>Contact Us | Adpedia</title>
+  <meta
+    name="description"
+    content="Get in touch with Adpedia — located in Aspin Commercial Tower, Dubai. Reach out via phone or email for innovative advertising solutions."
+  />
+  <meta
+    name="keywords"
+    content="Adpedia contact, Dubai advertising agency, Aspin Tower, Adpedia phone number, Adpedia location, Adpedia working hours"
+  />
+  <meta name="author" content="Adpedia Team" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Contact Adpedia - Creative Agency Dubai" />
+  <meta
+    property="og:description"
+    content="Visit Adpedia at Aspin Commercial Tower or contact us to bring your brand vision to life."
+  />
+  <meta property="og:image" content="https://theadpedia.com/logo.png" />
+  <meta property="og:url" content="https://theadpedia.com/#contact" />
+  <meta property="og:type" content="business.business" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Adpedia - Creative Agency Dubai" />
+  <meta
+    name="twitter:description"
+    content="Connect with our expert team for advertising, branding, and marketing solutions."
+  />
+  <meta name="twitter:image" content="https://theadpedia.com/logo.png" />
+
+  <link rel="canonical" href="https://theadpedia.com/#contact" />
+</Helmet>
+
 
   return (
+
+    
     <footer className="relative bg-gray-900 text-white px-6 py-12 z-10">
+      
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Contact Info */}
         <div>
@@ -31,16 +70,16 @@ const Footer = () => {
 
               
           <p>Aspin</p>
-          <p>commercial Tower, Financial centre</p>
+          <p>Commercial Tower, Financial centre</p>
           <p>Dubai</p>
           <p>Phone: +97 1545401082</p>
-          <p>Email: hello@yourbrand.com</p>
+          <p>Email: info@adpedia.com</p>
         </div>
 
         {/* Working Hours */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Working Hours</h3>
-          <ul className="space-y-1">
+          <ul className="space-y-2">
             {Object.entries(workingHours).map(([day, hours]) => (
               <li
                 key={day}
@@ -89,7 +128,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-10 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Adpedia.All rights reserved.
+        © {new Date().getFullYear()} theAdpedia.All rights reserved.
       </div>
     </footer>
   );

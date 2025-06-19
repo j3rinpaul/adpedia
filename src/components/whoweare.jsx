@@ -2,7 +2,7 @@ const members = [
   {
     name: "Amith Bhadran",
     role: " Captain of Concepts (Founder & Marketing Director)",
-    img: "/pic.jfif",
+    img: "/amith.jpeg",
     desc: "The driving force behind Adpedia’s creative vision and strategic growth, He brings over a decade of experience in building brands that stand out.",
   },
   {
@@ -38,7 +38,7 @@ function WhoWeAre(){
     const borderText = "Who we are? "
     return (
         <div className="relative bg-white  z-50">
-            <h3>Who we are</h3>
+            <h3 >Who we are</h3>
             <div className="flowing-border m-5">
       
         <div className="side top">
@@ -74,11 +74,12 @@ function WhoWeAre(){
           </div>
         </div>
       </div>
-    <div className="bg-white py-12 px-4 md:px-16 text-center">
-        <h2 className="text-1xl md:text-3xl font-light mb-10">
-        The Dream Team Behind the Magic
+    <div className="bg-white py-12 sm:py-5 px-4 md:px-16 text-center">
+        <h2 className="text-1xl md:text-3xl font-bold mb-10"
+        style={{fontFamily:"Special Elite"}}>
+        the dream team behind the magic
       </h2>
-      <div className="grid  md:grid-cols-3  sm:grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center text-center">
+      <div className="grid  md:grid-cols-3 m-10 sm:grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center text-center">
   {members.map((member, idx) => (
     <FlipCard key={idx} member={member} />
   ))}
