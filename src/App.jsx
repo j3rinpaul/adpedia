@@ -7,7 +7,8 @@ import Aboutus from './components/aboutus'
 import { useLenis } from './components/lenis'
 import WhatWeDo from './components/whatwedo'
 import Random from './components/random'
-
+import WhoWeAre from './components/whoweare'
+import ContactForm from './components/contact'
 function App() {
   useLenis()
 
@@ -20,7 +21,8 @@ function App() {
       <Aboutus/> 
       <WhatWeDo/> 
       <Random/>
-      <WhatWeDo/> 
+      < WhoWeAre/> 
+      <ContactForm/>
     </div>
        
     </>

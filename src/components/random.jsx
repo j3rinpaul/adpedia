@@ -5,8 +5,8 @@ function Random() {
       <div className="car-conatiner">
         
           
-          <div  className="absolute inset-0 mb-10 z-10">
-            <img src="/car_top.png" alt="Car" className="car" />
+          <div  className="absolute inset-0 mb-10 z-10 ">
+            <img src="/car_top.png" alt="Car" className="car " />
           </div>
           <div  className="absolute inset-0 mb-10 z-10">
             <img src="/car2.png" alt="Car" className="car1" />

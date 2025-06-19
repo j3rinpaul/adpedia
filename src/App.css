@@ -134,17 +134,18 @@
   width: 100%;
   height: 45vh;
   background-image: url("/road.png");
-  overflow: hidden;
+  /* overflow: hidden; */
   transform: rotate(180);
 }
 
 
 .roads{
-  background-color: black;
+  /* background-color: black; */
 }
 
 .car {
   position: absolute;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.6));
   bottom: 2vh;
   width: 100px;
   animation: drive 5s linear infinite;
@@ -152,6 +153,7 @@
 }
 .car1 {
   position: absolute;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.6));
   bottom: 18vh;
   width: 100px;
   transform: rotate(270deg);
@@ -164,7 +166,7 @@
   }
   
   100% {
-    left: 100vw;       /* Stay at right edge to pause */
+    left: 105%;       /* Stay at right edge to pause */
   }
 }
 
@@ -179,3 +181,26 @@
   }
 }
 
+.perspective {
+  perspective: 1000px;
+}
+
+.card-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.card-front{
+  background-color: #d7c907;
+}
+.card-back{
+  background-color: #d7c907;
+}

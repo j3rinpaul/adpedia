@@ -1,6 +1,15 @@
-import React from "react";
+import { useEffect, useState } from "react";
 
 function Hero() {
+  const [isHidden, setIsHidden] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setIsHidden(window.scrollY > 550); // hide after 100px scroll
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   
   return (
     <div className="relative h-[77vh] overflow-hidden z-0">
@@ -9,7 +18,9 @@ function Hero() {
         <img
           src="/hero.jpg"
           alt="hero"
-          className="w-full h-full object-cover"
+          className={`w-full h-full object-cover transition-opacity duration-500 ${
+          isHidden ? "opacity-0" : "opacity-100"
+        }`}
         />
       </div>
 
