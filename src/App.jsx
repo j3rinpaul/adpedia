@@ -11,7 +11,7 @@ import WhoWeAre from './components/whoweare'
 import ContactForm from './components/contact'
 import Footer from './components/footer'
 function App() {
-  useLenis()
+  // useLenis()
 
   return (
     <>
