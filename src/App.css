@@ -181,7 +181,7 @@
   }
   
   100% {
-    left: 105%;       /* Stay at right edge to pause */
+    left: 100%;       /* Stay at right edge to pause */
   }
 }
 
@@ -192,7 +192,7 @@
   }
  
   100% {
-    right: 100vw; /* Stay here to pause */
+    right: 100%; /* Stay here to pause */
   }
 }
 
