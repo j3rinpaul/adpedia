@@ -79,7 +79,7 @@ function WhoWeAre(){
         style={{fontFamily:"Special Elite"}}>
         the dream team behind the magic
       </h2>
-      <div className="grid  md:grid-cols-3 m-10 sm:grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center text-center">
+      <div className="grid  md:grid-cols-2 m-10 sm:grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center text-center">
   {members.map((member, idx) => (
     <FlipCard key={idx} member={member} />
   ))}
