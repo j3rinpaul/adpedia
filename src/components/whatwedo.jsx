@@ -18,7 +18,7 @@ function WhatWeDo() {
   <div className="w-32 h-32 md:w-40 md:h-40">
     <img
       src="/bats_ani.gif" // replace with your gif path or URL
-      alt="Animated Visual"
+      alt="Dubai advertising agency Adpedia - Animated Visual"
       className="w-full h-full object-contain"
     />
   </div>
@@ -30,7 +30,7 @@ function WhatWeDo() {
             <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     • Branding & Creative Design
-                    <img src="/light_bulb.svg" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/light_bulb.svg" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- Crafting logos</li>
@@ -41,7 +41,7 @@ function WhatWeDo() {
             <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     •  Digital Marketing
-                    <img src="/marketing.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/marketing.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- Email campaigns & PPC</li>
@@ -53,7 +53,7 @@ function WhatWeDo() {
             <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     •  Media Buying & Strategy
-                    <img src="/media.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/media.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- Strategic ad placements</li>
@@ -65,7 +65,7 @@ function WhatWeDo() {
             <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     •  Events & Exhibitions
-                    <img src="/event.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/event.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- Concept-to-completion execution of corporate events</li>
@@ -85,7 +85,7 @@ function WhatWeDo() {
     <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     •  Photography & Videography
-                    <img src="/photography.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/photography.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- Professional shoots for brands, products, and events</li>
@@ -96,7 +96,7 @@ function WhatWeDo() {
     <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     •  Website Development
-                    <img src="/website.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/website.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- User-focused</li>
@@ -107,7 +107,7 @@ function WhatWeDo() {
     <div className="list-disc list-inside">
                 <h3 className="text-xl font-bold mb-1 flex items-center ">
                     • Printing & Production
-                    <img src="/printer.png" alt="icon" className="w-5 h-5 ml-2" />
+                    <img src="/printer.png" alt="Dubai advertising agency Adpedia - icons" className="w-5 h-5 ml-2" />
                 </h3>
                 <ul className="pl-4">
                     <li>- High-quality printing,joinery, and fabrication with competitive pricing</li>
@@ -116,7 +116,7 @@ function WhatWeDo() {
                 </ul>
             </div>
             <div className="list-disc list-inside -mb-15 -mt-12 ">
-                       <img src="/cat.gif" alt="" />
+                       <img src="/cat.gif" alt="Dubai advertising agency Adpedia - icons" />
                     </div>
 
     

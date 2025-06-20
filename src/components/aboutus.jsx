@@ -56,31 +56,31 @@ function AboutUs() {
             </h3>
             <div className="flex gap-4 items-center flex-wrap pl-10">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/theadpedia"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src="/facebook.svg"
-                  alt="Facebook"
+                  alt="Facebook Dubai advertising agency Adpedia "
                   className="w-6 h-6 hover:scale-110 transition"
                 />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/theadpedia"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src="/instagram.svg"
-                  alt="Instagram"
+                  alt="Instagram, Dubai advertising agency Adpedia "
                   className="w-6 h-6 hover:scale-110 transition"
                 />
               </a>
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:theadpedia@gmail.com">
                 <img
                   src="/gmail.svg"
-                  alt="Gmail"
+                  alt="Gmail - Dubai advertising agency Adpedia "
                   className="w-6 h-6 hover:scale-110 transition"
                 />
               </a>
@@ -93,7 +93,7 @@ function AboutUs() {
 <div className="w-full lg:w-[40%] flex flex-col gap-4">
   <img
     src="/about.jpg"
-    alt="Adpedia Office"
+    alt="Dubai advertising agency Adpedia - Adpedia Office"
     className="rounded-lg shadow-lg object-cover w-full h-auto max-h-[500px]"
   />
 

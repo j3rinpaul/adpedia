@@ -45,7 +45,7 @@ function AboutSection() {
       <div className="absolute inset-0 z-0 ">
         <img
           src="/places_dubai.webp"
-          alt="About"
+          alt="Dubai best advertising agency Adpedia"
           className="w-full h-full object-contain lg:pt-30 "
         />
 

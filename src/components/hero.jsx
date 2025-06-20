@@ -18,22 +18,33 @@ function Hero() {
       {/* Background Image */}
           <div className="parallax-base">
         {/* Mobile Image */}
+            {/* Mobile (default: <640px) */}
             <img
               src="/hero-mobile.jpg"
-              alt="hero"
+              alt="Dubai advertising agency Adpedia - hero "
               className={`w-full h-full object-cover transition-opacity duration-500 sm:hidden ${
                 isHidden ? "opacity-0" : "opacity-100"
               }`}
             />
 
-            {/* Desktop Image */}
+            {/* Tablet (640px to <768px) */}
             <img
               src="/hero.jpg"
-              alt="hero"
-              className={`w-full h-full object-cover transition-opacity duration-500 hidden sm:block ${
+              alt="Dubai advertising agency Adpedia - hero"
+              className={`w-full h-full object-fit transition-opacity duration-500 hidden sm:block md:hidden ${
                 isHidden ? "opacity-0" : "opacity-100"
               }`}
             />
+
+            {/* Desktop (≥768px) */}
+            <img
+              src="/hero.jpg"
+              alt="Dubai advertising agency Adpedia - hero"
+              className={`w-full h-full object-cover transition-opacity duration-500 hidden md:block ${
+                isHidden ? "opacity-0" : "opacity-100"
+              }`}
+            />
+
       </div>
 
 
@@ -43,12 +54,12 @@ function Hero() {
       <div className="absolute top-4 left-4 z-20">
    
         <div className="text-white text-2xl  p-2 rounded-full">
-          <a href="/"><img src="/logo.png" alt="" width={50} /></a>
+          <a href="/"><img src="/logo.png" alt="Dubai advertising agency Adpedia Logo image" width={50} /></a>
           </div>
         </div>
 
   
-      <div className="absolute top-[25vh] sm:bottom-40 md:bottom-60 left-4 sm:left-6 md:left-10 text-white z-20 max-w-[90%] sm:max-w-[85%] md:max-w-none">
+      <div className="absolute top-[25vh] sm:bottom-40 md:bottom-20 left-4 sm:left-6 md:left-10 text-white z-20 max-w-[90%] sm:max-w-[85%] md:max-w-none">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight"
           style={{ fontFamily: "Caveat Brush" }}

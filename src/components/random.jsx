@@ -6,10 +6,10 @@ function Random() {
         
           
           <div  className="absolute inset-0 mb-10 z-10 ">
-            <img src="/car_top.png" alt="Car" className="car " />
+            <img src="/car_top.png" alt="Dubai advertising agency Adpedia  - Car animation" className="car " />
           </div>
           <div  className="absolute inset-0 mb-10 z-10">
-            <img src="/car2.png" alt="Car" className="car1" />
+            <img src="/car2.png" alt="Dubai advertising agency Adpedia - Car animation" className="car1" />
           </div>
           
          

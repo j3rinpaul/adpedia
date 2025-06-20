@@ -39,7 +39,7 @@ const Footer = () => {
   <meta property="og:title" content="Contact Adpedia - Creative Agency Dubai" />
   <meta
     property="og:description"
-    content="Visit Adpedia at Aspin Commercial Tower or contact us to bring your brand vision to life."
+    content="Visit Adpedia at Aspin Commercial Tower or contact us to bring your brand vision to life, Advertising agency in Dubai , Branding Agency, Digital Marketing"
   />
   <meta property="og:image" content="https://theadpedia.com/logo.png" />
   <meta property="og:url" content="https://theadpedia.com/#contact" />
@@ -55,6 +55,29 @@ const Footer = () => {
   <meta name="twitter:image" content="https://theadpedia.com/logo.png" />
 
   <link rel="canonical" href="https://theadpedia.com/#contact" />
+
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Adpedia",
+        "image": "https://theadpedia.com/logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Commercial Tower, Financial Centre",
+          "addressLocality": "Dubai",
+          "addressCountry": "AE"
+        },
+        "url": "https://theadpedia.com",
+        "telephone": "+971545401082",
+        "email": "info@adpedia.com",
+        "sameAs": [
+          "https://instagram.com/theadpedia"
+        ]
+      }
+    `}
+  </script>
 </Helmet>
 
 
@@ -72,7 +95,7 @@ const Footer = () => {
           <p>Aspin</p>
           <p>Commercial Tower, Financial centre</p>
           <p>Dubai</p>
-          <p>Phone: +97 1545401082</p>
+          <p>Phone: +971545401082</p>
           <p>Email: info@adpedia.com</p>
         </div>
 

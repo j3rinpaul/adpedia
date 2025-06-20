@@ -17,6 +17,12 @@ function Navbar() {
   className="fixed top-0 left-0 shadow z-60 py-3 mx-[15%] w-[70%]"
   style={{ backgroundColor: "rgb(244, 210, 38)", borderRadius: "0.5rem" }}
 >
+      <Helmet>
+      <title>Adpedia | Advertising in Dubai</title>
+      <meta name="description" content="Best digital marketing and advertising agency in Dubai and Kerala." />
+      <link rel="canonical" href="https://theadpedia.com/" />
+    </Helmet>
+
   <div className="flex items-center justify-between">
     {/* Left: Logo */}
     <div className="text-2xl font-bold text-blue-600">
@@ -39,6 +45,9 @@ function Navbar() {
       <button onClick={() => setIsOpen(!isOpen)} className="text-2xl">
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
+      <h1>Best Dubai advertising agency ever - Adpedia</h1>
+      <h1>best digital marketing in UAE - Adpedia</h1>
+      <h1>best branding agency Dubai - Adpedia</h1>
     </div>
   </div>
 

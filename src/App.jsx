@@ -41,6 +41,38 @@ function App() {
         <meta name="twitter:image" content="https://theadpedia.com/logo.png" />
 
         <link rel="canonical" href="https://theadpedia.com/" />
+
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Adpedia",
+            "url": "https://theadpedia.com",
+            "logo": "https://theadpedia.com/logo.png",
+            "sameAs": [
+              "https://instagram.com/theadpedia"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+971545401082",
+              "contactType": "customer service",
+              "areaServed": "AE",
+              "availableLanguage": ["English"]
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Aspin Commercial Tower",
+              "addressLocality": "Dubai",
+              "addressRegion": "Dubai",
+              "postalCode": "00000",
+              "addressCountry": "AE"
+            }
+          }
+        `}
+      </script>
+
+
       </Helmet>
 
     <div className='common-bg  '>

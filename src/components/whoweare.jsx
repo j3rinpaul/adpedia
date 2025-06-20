@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet';
+
 const members = [
   {
     name: "Amith Bhadran",
@@ -38,6 +40,12 @@ function WhoWeAre(){
     const borderText = "Who we are? "
     return (
         <div className="relative bg-white  z-50">
+                  <Helmet>
+                    <title>Adpedia | Advertising in Dubai</title>
+                    <meta name="description" content="Best digital marketing and advertising agency in Dubai and Kerala." />
+                    <link rel="canonical" href="https://theadpedia.com/" />
+                  </Helmet>
+
             <h3 >Who we are</h3>
             <div className="flowing-border m-5">
       
