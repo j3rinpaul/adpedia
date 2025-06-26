@@ -45,7 +45,7 @@ const ContactForm = React.forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="relative w-full px-4 md:px-10 py-10 bg-white shadow-lg z-10"
+      className="relative w-full px-4 md:px-10 py-10 bg-gray-100 shadow-lg z-10"
     >
       <div className="max-w-3xl mx-auto">
         <h2

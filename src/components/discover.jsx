@@ -4,7 +4,7 @@ function AboutSection() {
   const borderText = "✨ Empowering brands every day ";
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden about-bg">
+    <div className="relative w-full lg:h-screen overflow-hidden about-bg">
 
       {/* FLOWING BORDER */}
       <div className="flowing-border">
@@ -42,11 +42,11 @@ function AboutSection() {
       </div>
 
       {/* DUBAI BACKGROUND IMAGE */}
-      <div className="absolute inset-0 z-0 ">
+      <div className="absolute inset-0 z-0 dubai-pic">
         <img
           src="/places_dubai.webp"
           alt="Dubai best advertising agency Adpedia"
-          className="w-full h-full object-contain lg:pt-30 "
+          className="w-full h-full object-cover lg:pt-30 "
         />
 
       </div>
@@ -68,7 +68,7 @@ function AboutSection() {
         </div>
 
         {/* RIGHT BILLBOARD SECTION */}
-       <div className="w-full md:w-[300px] bg-yellow-400 text-black font-serif px-6 py-8 shadow-lg relative mx-4 md:mx-0">
+       <div className="w-full md:w-[300px] bg-yellow-400 text-black font-serif px-6 py-8 shadow-lg relative mx-4 md:mx-0 bill-board">
 
 
           {/* Triangle Corner */}

@@ -2,15 +2,17 @@
 
 .common-bg {
   background-image: url('/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  
   background-position: center;
   min-height: 100vh;
   padding-left: 13.5%;
   padding-right: 13.5%;
 }
 
-
+.bees{
+  margin-left: 30%
+}
 
 .hero-bg{
    padding-left: 13.5%;
@@ -126,6 +128,7 @@
   background-color: #d7c907;
   margin-right: 5vw;
   margin-left: 8vw;
+  
 }
 
 
@@ -158,8 +161,21 @@
                     right: calc(100vw - 60px);
                 }
             }
-        }
 
+      .bill-board{
+        width: calc(100% - 20vw);
+        margin-bottom: 5vh
+      }
+
+      .dubai-pic{
+        display: none;
+      }
+        }
+.dubai-pic{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
 
 .car-conatiner {
   position: relative;
@@ -174,6 +190,23 @@
 .roads{
   /* background-color: black; */
 }
+.bees-news{
+  transform: scaleX(-1);
+  width: 3vw
+}
+.bees-love{
+  width: 5vw;
+}
+
+/* Add to your index.css or global.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 
 .car {
   position: absolute;

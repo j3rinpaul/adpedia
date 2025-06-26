@@ -6,8 +6,10 @@ function AboutUs() {
       {/* Heading Section */}
       <div className="bg-[#f2f2f2] border-t-4 border-b-4 border-black py-6 px-4 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif tracking-wide flex justify-center items-center gap-3 flex-wrap">
+          <img src="/bees_love.gif" alt="Idea" className="w-8 sm:w-10 h-auto bees-love" />
+
           <span className="font-extrabold">THE ADPEDIA STORY</span>
-          <img src="/light_bulb.svg" alt="Idea" className="w-8 sm:w-10 h-auto" />
+          <img src="/bee_news.gif" alt="Idea" className="w-8 sm:w-10 h-auto bees-news" />
         </h1>
       </div>
 

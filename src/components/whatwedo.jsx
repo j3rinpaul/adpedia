@@ -115,8 +115,8 @@ function WhatWeDo() {
                    
                 </ul>
             </div>
-            <div className="list-disc list-inside -mb-15 -mt-12 ">
-                       <img src="/cat.gif" alt="Dubai advertising agency Adpedia - icons" />
+            <div className="list-disc list-inside bees ">
+                       <img src="/cat.gif" alt="Dubai advertising agency Adpedia - icons" width={"40%"} />
                     </div>
 
     

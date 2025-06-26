@@ -65,7 +65,7 @@ function Hero() {
           style={{ fontFamily: "Caveat Brush" }}
         >
           Innovative Advertising Solutions <br className="hidden sm:block" /> 
-          <span className="sm:hidden">for Your Business Growth</span>
+       
           <span className="sm:hidden">for Your Business Growth</span>
           <span className="hidden sm:inline">for Your Business Growth</span>
         </h1>

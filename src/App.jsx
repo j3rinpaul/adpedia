@@ -10,6 +10,7 @@ import WhoWeAre from './components/whoweare'
 import ContactForm from './components/contact'
 import Footer from './components/footer'
 import MessageIcon from '@mui/icons-material/Message';
+import MovingBlogs from './components/moving';
 function App() {
   const contactRef = useRef();
 
@@ -84,6 +85,7 @@ function App() {
       <section id='services'><WhatWeDo/></section>
       <Random/>
       <section id='team'>< WhoWeAre/> </section>
+      <MovingBlogs/>
       <section id='contact'><ContactForm ref={contactRef} /></section>
 
       <section id='contact-details'><Footer/></section>

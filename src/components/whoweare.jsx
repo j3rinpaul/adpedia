@@ -17,7 +17,7 @@ const members = [
     name: "Bhavana BS",
     role: "Digital Wizard (Digital Marketing Lead)",
     img: "/bhavana.jpeg",
-    desc: "Specializing in SEO, social media, and performance campaigns, [Name] ensures your brand connects with the right audience online.",
+    desc: "Specializing in SEO, social media, and performance campaigns, Bhavana BS ensures your brand connects with the right audience online.",
   },
   // Add more members here
   {
